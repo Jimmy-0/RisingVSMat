@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  risingwave:
+    image: risingwavelabs/risingwave
+    container_name: p4-risingwave
+    ports:
+      - 4566:4566
+      - 5691:5691
+    command:
+      - playground
+    networks:
+      - risingwave
+
+networks:
+  risingwave:
+    driver: bridge
