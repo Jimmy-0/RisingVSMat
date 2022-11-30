@@ -1,12 +1,4 @@
-# CS511 - Project 4
 
-## Team
-
-- Team Name: `Yidhra`
-- Member 0: Huiming Sun (`huiming5`)
-- Member 1: Pinhao Guo (`pinhaog2`)
-- Member 2: Zhiming Pi (`zhimeng2`)
-- Member 3: Chun-Ming Lin (`cmlin2`)
 
 ## Source
 
@@ -14,10 +6,7 @@
 - Branch: `main`
 - Commit SHA-1 ID: `f77fa3304027160347bf6085d314be76220aeb57`
 
-## Video
-[Introduction of Risingwave Video Link](https://drive.google.com/file/d/1aDV6V8nKaJtnTus4lX2B29YGR1hqcxAX/view?usp=sharing)
 
-[Risingwave vs Materialize Benchmark Video Link](https://drive.google.com/file/d/1swB9Kfs-GoxrwHM9jDmuSyIAvH5XimgE/view?usp=sharing)
 
 <div style="page-break-after: always"></div>
 
