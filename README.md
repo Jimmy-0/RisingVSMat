@@ -1,17 +1,5 @@
 
 
-## Source
-
-- GitHub Repository: <https://github.com/CornDavid5/cs511-project>
-- Branch: `main`
-- Commit SHA-1 ID: `f77fa3304027160347bf6085d314be76220aeb57`
-
-
-
-<div style="page-break-after: always"></div>
-
-## Original Proposal
-
 ### Goals
 
 #### What you aim to study?
