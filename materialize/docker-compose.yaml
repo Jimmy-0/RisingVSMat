@@ -1,0 +1,25 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:15.1-alpine
+    container_name: p4-postgres
+    restart: always
+    ports:
+     - 5432:5432
+    environment:
+     - POSTGRES_USER=postgres
+     - POSTGRES_PASSWORD=postgres
+     - POSTGRES_DB=postgres
+    volumes:
+     - ${PWD}/postgres:/docker-entrypoint-initdb.d
+  materialized:
+    image: materialize/materialized:v0.26.5
+    container_name: p4-materialized
+    restart: always
+    ports:
+      - 6875:6875
+    depends_on:
+      - postgres
+  mzcli:
+    image: materialize/cli
+    container_name: mzcli
