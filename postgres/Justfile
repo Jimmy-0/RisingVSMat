@@ -1,0 +1,9 @@
+set shell := ["bash", "-uceExv"]
+
+default:
+    just --list
+
+build:
+    go build -tags "" -mod=vendor -o "./bin/risingwave-benchmark" "./cli/risingwave"
+build-linux-amd64:
+    GOOS="linux" GOARCH="amd64" go build -tags "" -mod=vendor -o "./bin/risingwave-benchmark-linux-amd64" "./cli/risingwave"
